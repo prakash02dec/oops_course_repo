@@ -8,6 +8,7 @@ CMakeFiles/BBMS.dir/admin.cpp.obj: ../admin.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++config.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/os_defines.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/cpu_defines.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stringfwd.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/memoryfwd.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/char_traits.h \
@@ -87,6 +88,10 @@ CMakeFiles/BBMS.dir/admin.cpp.obj: ../admin.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/atomic_word.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/alloc_traits.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/alloc_traits.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/string_view \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/limits \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/string_conversions.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdlib \
   C:/MinGW/include/stdlib.h \
@@ -96,7 +101,6 @@ CMakeFiles/BBMS.dir/admin.cpp.obj: ../admin.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdio \
   C:/MinGW/include/stdio.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cerrno \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/basic_string.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iostream \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ostream \
@@ -133,6 +137,7 @@ CMakeFiles/BBMS.dir/hospital.cpp.obj: ../hospital.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++config.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/os_defines.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/cpu_defines.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stringfwd.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/memoryfwd.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/char_traits.h \
@@ -212,6 +217,10 @@ CMakeFiles/BBMS.dir/hospital.cpp.obj: ../hospital.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/atomic_word.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/alloc_traits.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/alloc_traits.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/string_view \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/limits \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/string_conversions.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdlib \
   C:/MinGW/include/stdlib.h \
@@ -221,8 +230,9 @@ CMakeFiles/BBMS.dir/hospital.cpp.obj: ../hospital.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdio \
   C:/MinGW/include/stdio.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cerrno \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/basic_string.tcc \
+  ../admin.hpp \
+  ../user.hpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iostream \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ostream \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ios \
@@ -258,6 +268,7 @@ CMakeFiles/BBMS.dir/main.cpp.obj: ../main.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++config.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/os_defines.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/cpu_defines.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stringfwd.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/memoryfwd.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/char_traits.h \
@@ -337,6 +348,10 @@ CMakeFiles/BBMS.dir/main.cpp.obj: ../main.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/atomic_word.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/alloc_traits.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/alloc_traits.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/string_view \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/limits \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/string_conversions.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdlib \
   C:/MinGW/include/stdlib.h \
@@ -346,7 +361,6 @@ CMakeFiles/BBMS.dir/main.cpp.obj: ../main.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdio \
   C:/MinGW/include/stdio.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cerrno \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/basic_string.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iostream \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ostream \
@@ -375,7 +389,65 @@ CMakeFiles/BBMS.dir/main.cpp.obj: ../main.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/codecvt.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/basic_file.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++io.h \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fstream.tcc
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fstream.tcc \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/filesystem \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fs_fwd.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/chrono \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ratio \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ctime \
+  C:/MinGW/include/time.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/parse_numbers.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fs_path.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/utility \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_relops.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/locale \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/locale_facets_nonio.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/time_members.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/messages_members.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/locale_facets_nonio.tcc \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/locale_conv.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/unique_ptr.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tuple \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/array \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/uses_allocator.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/invoke.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iomanip \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/quoted_string.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/sstream \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/sstream.tcc \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/codecvt \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/concurrence.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/shared_ptr.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/shared_ptr_base.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/allocated_ptr.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/refwrap.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/aligned_buffer.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/algorithm \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_algo.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/algorithmfwd.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_heap.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_tempbuf.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_construct.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/uniform_int_dist.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/functional \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/std_function.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/unordered_map \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/hashtable.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/hashtable_policy.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/node_handle.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/optional \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/enable_special_members.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/unordered_map.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/erase_if.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/vector \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_uninitialized.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_vector.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_bvector.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/vector.tcc \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fs_dir.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fs_ops.h
 
 CMakeFiles/BBMS.dir/user.cpp.obj: ../user.cpp \
   ../user.hpp \
@@ -385,6 +457,7 @@ CMakeFiles/BBMS.dir/user.cpp.obj: ../user.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++config.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/os_defines.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/cpu_defines.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stringfwd.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/memoryfwd.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/char_traits.h \
@@ -464,6 +537,10 @@ CMakeFiles/BBMS.dir/user.cpp.obj: ../user.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/atomic_word.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/alloc_traits.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/alloc_traits.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/string_view \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/limits \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/string_conversions.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdlib \
   C:/MinGW/include/stdlib.h \
@@ -473,7 +550,6 @@ CMakeFiles/BBMS.dir/user.cpp.obj: ../user.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdio \
   C:/MinGW/include/stdio.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cerrno \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/basic_string.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iostream \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ostream \
@@ -503,10 +579,6 @@ CMakeFiles/BBMS.dir/user.cpp.obj: ../user.cpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++io.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fstream.tcc
 
-
-C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/debug/assertions.h:
-
-C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stringfwd.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/exception_defines.h:
 
@@ -522,6 +594,18 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/string:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++config.h:
 
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_algo.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/nested_exception.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/glue_algorithm_defs.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/pstl_config.h:
+
+C:/MinGW/include/io.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/vector.tcc:
+
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/cpu_defines.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/new_allocator.h:
@@ -532,13 +616,21 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/move.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/os_defines.h:
 
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/debug/assertions.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stringfwd.h:
+
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/memoryfwd.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/messages_members.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++allocator.h:
 
 C:/MinGW/include/sys/types.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/char_traits.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/shared_ptr.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdint:
 
@@ -574,11 +666,19 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_iterator_base_funcs.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/hash_bytes.h:
 
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fs_ops.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/string_view:
+
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_iterator.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/filesystem:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/ptr_traits.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/debug/debug.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tuple:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iostream:
 
@@ -591,6 +691,8 @@ C:/MinGW/include/process.h:
 C:/MinGW/include/wchar.h:
 
 C:/MinGW/include/_mingw.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/locale_conv.h:
 
 C:/MinGW/include/w32api.h:
 
@@ -606,11 +708,15 @@ C:/MinGW/include/locale.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/stddef.h:
 
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/concurrence.h:
+
 C:/MinGW/include/stdio.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/stdarg.h:
 
 C:/MinGW/include/stdlib.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/erase_if.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/exception_ptr.h:
 
@@ -622,13 +728,11 @@ C:/MinGW/include/direct.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/typeinfo:
 
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/locale_facets_nonio.tcc:
+
 C:/MinGW/include/sys/stat.h:
 
 C:/MinGW/include/conio.h:
-
-C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/nested_exception.h:
-
-C:/MinGW/include/io.h:
 
 C:/MinGW/include/stdint.h:
 
@@ -680,6 +784,16 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/atomic_word.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/alloc_traits.h:
 
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/limits:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/std_function.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/streambuf:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/string_view.tcc:
+
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/string_conversions.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdlib:
@@ -689,10 +803,6 @@ C:/MinGW/include/alloca.h:
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdio:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cerrno:
-
-C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/streambuf:
-
-C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/functional_hash.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/basic_string.tcc:
 
@@ -743,5 +853,93 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fstream.tcc:
 ../hospital.cpp:
 
 ../main.cpp:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fs_fwd.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/chrono:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_heap.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ratio:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ctime:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/parse_numbers.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fs_path.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/utility:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_relops.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/locale:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/locale_facets_nonio.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/time_members.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/unique_ptr.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/array:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/uses_allocator.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/invoke.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/unordered_map:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iomanip:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/quoted_string.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/sstream:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/sstream.tcc:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/codecvt:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/shared_ptr_base.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/allocated_ptr.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/refwrap.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/ext/aligned_buffer.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/algorithm:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/algorithmfwd.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_tempbuf.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_construct.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fs_dir.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/uniform_int_dist.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/functional:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/hashtable.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/hashtable_policy.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/node_handle.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/optional:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/enable_special_members.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/unordered_map.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/vector:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_uninitialized.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_vector.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_bvector.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/pstl/execution_defs.h:
 
 ../user.cpp:

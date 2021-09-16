@@ -1,5 +1,3 @@
-C:/Users/praka/Desktop/blood_bank_managment_system/build/CMakeFiles/package_source.dir
 C:/Users/praka/Desktop/blood_bank_managment_system/build/CMakeFiles/BBMS.dir
-C:/Users/praka/Desktop/blood_bank_managment_system/build/CMakeFiles/package.dir
 C:/Users/praka/Desktop/blood_bank_managment_system/build/CMakeFiles/edit_cache.dir
 C:/Users/praka/Desktop/blood_bank_managment_system/build/CMakeFiles/rebuild_cache.dir

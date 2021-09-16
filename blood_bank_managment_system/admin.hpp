@@ -5,8 +5,6 @@
 #include"hospital.hpp"
 
 class admin{
-
-      
     public:
     admin(){
     }
@@ -24,12 +22,5 @@ class admin{
 
 
 };
-
-
-
-
-
-
-
 
 #endif

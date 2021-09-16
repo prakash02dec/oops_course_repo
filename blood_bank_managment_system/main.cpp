@@ -1,23 +1,22 @@
 #include "admin.hpp"
-#include "user.hpp"
-#include "hospital.hpp"
 #include <fstream>
+#include <filesystem>
 
 void blood_sample(){
     bool status {false};
     std::ifstream in_file;
-    in_file.open("../data/accept.txt" , std::ios::in);  
+    in_file.open("data/accept.txt" , std::ios::in);  
 
     std::cout<< "=======================================BLOOD SAMPLE AVAILABLE===================================="<<std::endl; 
     std::cout<< "============================================================================================="<<std::endl;
     std::cout<<std::endl;
         
-        while (!in_file.eof())
+        while (!in_file.eof() && in_file)
         {
-            std::string date{};
+
             user donor_info;
             in_file >> donor_info.name >> donor_info.age >> donor_info.weight >> donor_info.health_ill_status 
-            >> donor_info.blood_group >> donor_info.amount_of_blood>>date ;
+            >> donor_info.blood_group >> donor_info.amount_of_blood>>donor_info.date ;
 
             std::string blood_group_sample {} ;
             std::cout << "\nEnter the Blood Sample you want to check for its availability : ";
@@ -44,13 +43,22 @@ void blood_sample(){
                 std::cout << "**********************************" << std::endl;
         }
         in_file.close();
+        return ;
 }
 
 
-
-#include <iostream>
 int main()
 {
+    const std::string path = "data";
+
+    try{
+        if(std::filesystem::create_directory(path))
+            std::cout << "Created a directory\n";
+        else
+            std::cerr << "already a directory exist with name data\n";\
+        }catch(const std::exception& e){
+            std::cerr << e.what() << '\n';
+        }
     while (1)
     {
         std::cout << "====================================BLOOD DONATION SYSTEM====================================" << std::endl;
@@ -61,8 +69,9 @@ int main()
                 << "3. Hospitals" << std::endl
                 << "4. Admin  " <<std::endl
                 << "5. Exit " <<std::endl;
-        int response;
-        std::cout << "Select an option (1-5) to continue :";
+        std::cout << "Select an option (1-5) to continue : ";
+        int response {};
+        
         std::cin >> response;
 
         switch (response)
@@ -102,5 +111,11 @@ int main()
             break;
         }
     }
+    
+}
+
+void emergency_declare(){
+
+    
     
 }

@@ -82,24 +82,10 @@ CMakeFiles/BBMS.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BBMS.dir/main.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\praka\Desktop\blood_bank_managment_system\main.cpp -o CMakeFiles\BBMS.dir\main.cpp.s
 
-CMakeFiles/BBMS.dir/user.cpp.obj: CMakeFiles/BBMS.dir/flags.make
-CMakeFiles/BBMS.dir/user.cpp.obj: ../user.cpp
-CMakeFiles/BBMS.dir/user.cpp.obj: CMakeFiles/BBMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\praka\Desktop\blood_bank_managment_system\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BBMS.dir/user.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BBMS.dir/user.cpp.obj -MF CMakeFiles\BBMS.dir\user.cpp.obj.d -o CMakeFiles\BBMS.dir\user.cpp.obj -c C:\Users\praka\Desktop\blood_bank_managment_system\user.cpp
-
-CMakeFiles/BBMS.dir/user.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BBMS.dir/user.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\praka\Desktop\blood_bank_managment_system\user.cpp > CMakeFiles\BBMS.dir\user.cpp.i
-
-CMakeFiles/BBMS.dir/user.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BBMS.dir/user.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\praka\Desktop\blood_bank_managment_system\user.cpp -o CMakeFiles\BBMS.dir\user.cpp.s
-
 CMakeFiles/BBMS.dir/admin.cpp.obj: CMakeFiles/BBMS.dir/flags.make
 CMakeFiles/BBMS.dir/admin.cpp.obj: ../admin.cpp
 CMakeFiles/BBMS.dir/admin.cpp.obj: CMakeFiles/BBMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\praka\Desktop\blood_bank_managment_system\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BBMS.dir/admin.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\praka\Desktop\blood_bank_managment_system\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BBMS.dir/admin.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BBMS.dir/admin.cpp.obj -MF CMakeFiles\BBMS.dir\admin.cpp.obj.d -o CMakeFiles\BBMS.dir\admin.cpp.obj -c C:\Users\praka\Desktop\blood_bank_managment_system\admin.cpp
 
 CMakeFiles/BBMS.dir/admin.cpp.i: cmake_force
@@ -113,7 +99,7 @@ CMakeFiles/BBMS.dir/admin.cpp.s: cmake_force
 CMakeFiles/BBMS.dir/hospital.cpp.obj: CMakeFiles/BBMS.dir/flags.make
 CMakeFiles/BBMS.dir/hospital.cpp.obj: ../hospital.cpp
 CMakeFiles/BBMS.dir/hospital.cpp.obj: CMakeFiles/BBMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\praka\Desktop\blood_bank_managment_system\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BBMS.dir/hospital.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\praka\Desktop\blood_bank_managment_system\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BBMS.dir/hospital.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BBMS.dir/hospital.cpp.obj -MF CMakeFiles\BBMS.dir\hospital.cpp.obj.d -o CMakeFiles\BBMS.dir\hospital.cpp.obj -c C:\Users\praka\Desktop\blood_bank_managment_system\hospital.cpp
 
 CMakeFiles/BBMS.dir/hospital.cpp.i: cmake_force
@@ -124,20 +110,34 @@ CMakeFiles/BBMS.dir/hospital.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BBMS.dir/hospital.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\praka\Desktop\blood_bank_managment_system\hospital.cpp -o CMakeFiles\BBMS.dir\hospital.cpp.s
 
+CMakeFiles/BBMS.dir/user.cpp.obj: CMakeFiles/BBMS.dir/flags.make
+CMakeFiles/BBMS.dir/user.cpp.obj: ../user.cpp
+CMakeFiles/BBMS.dir/user.cpp.obj: CMakeFiles/BBMS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\praka\Desktop\blood_bank_managment_system\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BBMS.dir/user.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BBMS.dir/user.cpp.obj -MF CMakeFiles\BBMS.dir\user.cpp.obj.d -o CMakeFiles\BBMS.dir\user.cpp.obj -c C:\Users\praka\Desktop\blood_bank_managment_system\user.cpp
+
+CMakeFiles/BBMS.dir/user.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BBMS.dir/user.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\praka\Desktop\blood_bank_managment_system\user.cpp > CMakeFiles\BBMS.dir\user.cpp.i
+
+CMakeFiles/BBMS.dir/user.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BBMS.dir/user.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\praka\Desktop\blood_bank_managment_system\user.cpp -o CMakeFiles\BBMS.dir\user.cpp.s
+
 # Object files for target BBMS
 BBMS_OBJECTS = \
 "CMakeFiles/BBMS.dir/main.cpp.obj" \
-"CMakeFiles/BBMS.dir/user.cpp.obj" \
 "CMakeFiles/BBMS.dir/admin.cpp.obj" \
-"CMakeFiles/BBMS.dir/hospital.cpp.obj"
+"CMakeFiles/BBMS.dir/hospital.cpp.obj" \
+"CMakeFiles/BBMS.dir/user.cpp.obj"
 
 # External object files for target BBMS
 BBMS_EXTERNAL_OBJECTS =
 
 BBMS.exe: CMakeFiles/BBMS.dir/main.cpp.obj
-BBMS.exe: CMakeFiles/BBMS.dir/user.cpp.obj
 BBMS.exe: CMakeFiles/BBMS.dir/admin.cpp.obj
 BBMS.exe: CMakeFiles/BBMS.dir/hospital.cpp.obj
+BBMS.exe: CMakeFiles/BBMS.dir/user.cpp.obj
 BBMS.exe: CMakeFiles/BBMS.dir/build.make
 BBMS.exe: CMakeFiles/BBMS.dir/linklibs.rsp
 BBMS.exe: CMakeFiles/BBMS.dir/objects1.rsp

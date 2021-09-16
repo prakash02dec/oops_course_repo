@@ -1,22 +1,22 @@
 [
 {
   "directory": "C:/Users/praka/Desktop/blood_bank_managment_system/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\BBMS.dir\\main.cpp.obj -c C:\\Users\\praka\\Desktop\\blood_bank_managment_system\\main.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++17 -o CMakeFiles\\BBMS.dir\\main.cpp.obj -c C:\\Users\\praka\\Desktop\\blood_bank_managment_system\\main.cpp",
   "file": "C:/Users/praka/Desktop/blood_bank_managment_system/main.cpp"
 },
 {
   "directory": "C:/Users/praka/Desktop/blood_bank_managment_system/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\BBMS.dir\\user.cpp.obj -c C:\\Users\\praka\\Desktop\\blood_bank_managment_system\\user.cpp",
-  "file": "C:/Users/praka/Desktop/blood_bank_managment_system/user.cpp"
-},
-{
-  "directory": "C:/Users/praka/Desktop/blood_bank_managment_system/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\BBMS.dir\\admin.cpp.obj -c C:\\Users\\praka\\Desktop\\blood_bank_managment_system\\admin.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++17 -o CMakeFiles\\BBMS.dir\\admin.cpp.obj -c C:\\Users\\praka\\Desktop\\blood_bank_managment_system\\admin.cpp",
   "file": "C:/Users/praka/Desktop/blood_bank_managment_system/admin.cpp"
 },
 {
   "directory": "C:/Users/praka/Desktop/blood_bank_managment_system/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -o CMakeFiles\\BBMS.dir\\hospital.cpp.obj -c C:\\Users\\praka\\Desktop\\blood_bank_managment_system\\hospital.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++17 -o CMakeFiles\\BBMS.dir\\hospital.cpp.obj -c C:\\Users\\praka\\Desktop\\blood_bank_managment_system\\hospital.cpp",
   "file": "C:/Users/praka/Desktop/blood_bank_managment_system/hospital.cpp"
+},
+{
+  "directory": "C:/Users/praka/Desktop/blood_bank_managment_system/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe   -g -std=gnu++17 -o CMakeFiles\\BBMS.dir\\user.cpp.obj -c C:\\Users\\praka\\Desktop\\blood_bank_managment_system\\user.cpp",
+  "file": "C:/Users/praka/Desktop/blood_bank_managment_system/user.cpp"
 }
 ]
